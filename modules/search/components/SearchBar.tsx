@@ -19,12 +19,7 @@ function SearchBar({ state, setState, placeholder }: Props) {
       placeholder={placeholder}
       value={state}
       onChange={handleChange}
-      className="
-        bg-white border-gray-600 text-black
-        px-3 py-1.5 rounded-md transition-all border-2
-        focus:outline-none focus:shadow-[0px_0px_36px_-5px_#1447e6] focus:border-blue-700
-        hover:border-blue-700
-      "
+      className="text-lg"
     />
   );
 }
